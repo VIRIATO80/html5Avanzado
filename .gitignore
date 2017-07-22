@@ -2,3 +2,7 @@ node_modules/
 css/
 # Carpeta DIST no 
 dist/
+
+#Carpeta .idea tampoco
+
+.idea/
