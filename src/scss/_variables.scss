@@ -1,0 +1,32 @@
+//Font families
+$main-font-familily: 'Roboto Slab', serif;
+$title-font-family: 'Raleway', sans-serif;
+$body-font-family: $main-font-familily;
+
+//Font sizes
+$font-size-base: 15px;
+$font-size-small: $font-size-base - 5px;
+$font-size-large: $font-size-base + 5px;
+$font-size-h1: $font-size-base + 15px;
+$font-size-h2: $font-size-base + 12px;
+$font-size-h3: $font-size-base + 9px;
+$font-size-h4: $font-size-base + 6px;
+$font-size-h5: $font-size-base + 3px;
+$font-size-h6: $font-size-base;
+
+//Base colors
+$color-black: #050F15;
+$color-dark-blue: #1A4C6D;
+$color-middle-blue: #3498DB;
+$color-shine-blue: #85C1E9;
+$color-soft-blue: #C2E0F4;
+
+//Main components
+$main-text-color: white;
+$links-color: $color-dark-blue;
+
+//Responsive
+$mobile-portrait-width: 375px;
+$mobile-landscape-width: 767px;
+$tablet-portrait-width: 768px;
+$tablet-landscape-width: 1024px;

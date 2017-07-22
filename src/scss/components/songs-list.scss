@@ -1,0 +1,70 @@
+.songs-list{
+    margin-top: 55px;
+    
+    .ui-status {
+        display: none;
+    }
+
+    &.empty{
+        .ui-status.empty{
+            display: block;
+        }
+    }
+
+    &.error{
+        .ui-status.error{
+            display: block;
+        }
+    }   
+
+    &.loading{
+        .ui-status.loading{
+            display: block;
+        }
+    }
+
+    &.ideal{
+        .ui-status.ideal{
+            display: block;
+        }
+    }
+
+    &.empty, &.loading, &.error{
+        font-size: $font-size-large;
+        text-align: center;
+        padding: 50px;
+    }
+    .song{
+        box-sizing:  border-box;
+        width: calc(50% - 10px);
+        float: left;
+        background: $color-middle-blue;
+        padding: 15px;
+        margin: 10px 5px;
+        height: 240px;
+        max-height: 240px;
+        overflow: hidden;
+
+        @include if-mobile-landscape {
+            width: calc(25% - 10px);
+        }
+
+        @include if-desktop {
+            width: calc(20% - 10px);
+        }
+
+        .cover{
+            width: 100%;
+        }
+
+        .artist {
+            font-weight: bold;
+            margin-top: 10px;
+        }
+
+        .title{
+            margin-top: 5px;
+        }
+    }
+
+}

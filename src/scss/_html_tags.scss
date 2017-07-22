@@ -1,0 +1,22 @@
+body{
+    background: $color-dark-blue;
+    font-family: $main-font-familily;
+    font-size: $font-size-base;
+    color: $main-text-color;
+
+
+     @include if-mobile {
+         background: $color-soft-blue;
+     }
+
+     
+     @include if-tablet {
+         background: navajowhite;
+     }
+
+     @include if-desktop {
+         background: green;
+     }
+
+
+}

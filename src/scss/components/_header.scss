@@ -1,0 +1,19 @@
+.web-header {
+    background: fade-out($color-black, 0.15);
+    padding: 15px 0;
+    color: $color-soft-blue;
+    text-align: center;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    transition: background 0.2%;
+    &:hover{
+       background-color:  $color-black;
+    }
+
+    .web-title {
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: $font-size-large;
+    }
+}
